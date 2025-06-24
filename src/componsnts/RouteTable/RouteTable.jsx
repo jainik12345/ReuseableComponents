@@ -21,7 +21,7 @@ const RouteTable = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-2xl mx-auto my-5 mt-100">
+    <div className="max-w-2xl mx-auto my-5 mb-100">
       <h2 className="text-2xl font-bold mb-4 text-center">Navigation Table</h2>
       <div style={{ maxHeight: "260px", overflowY: "auto" }}>
         <table className="min-w-full border border-gray-300 rounded overflow-hidden">
